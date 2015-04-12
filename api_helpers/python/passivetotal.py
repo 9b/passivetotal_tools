@@ -166,7 +166,7 @@ class PassiveTotal(object):
 			response = requests.get(call_url, params=params, verify=False)
 		else:
 			params.update(kwargs) # update our dict
-			response = requests.post(call_url, params=params, verify=False)
+			response = requests.post(call_url, data=params, verify=False)
 		self._logger.debug('Response: %s' % str(response))
 		json_response = json.loads(response.content)
 		self._logger.debug('Loaded JSON: %s' % json_response)
