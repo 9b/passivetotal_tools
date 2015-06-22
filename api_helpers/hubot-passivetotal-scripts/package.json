@@ -1,0 +1,25 @@
+{
+  "name": "hubot-passivetotal-scripts",
+  "description": "A set of script to bring PassiveTotal power inside of your chat!",
+  "version": "1.0.2",
+  "author": "Brandon Dixon <brandon@passivetotal.org>",
+  "license": "GPL-3.0",
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "passivetotal",
+    "threat-intelligence"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/passivetotal/passivetotal_tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/passivetotal/passivetotal_tools/issues"
+  },
+  "main": "index.coffee",
+  "homepage": "https://github.com/passivetotal/passivetotal_tools#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

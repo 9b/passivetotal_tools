@@ -3,7 +3,7 @@
 from passivetotal import PassiveTotal
 		
 # create a new instance
-pt = PassiveTotal('-YOUR API KEY HERE-')
+pt = PassiveTotal('9240860a2790ca058fac39f2c39c86dace50f44dc020e3dd4d6308e152b354fb')
 
 # set our logging
 pt.logger = 'DEBUG'
