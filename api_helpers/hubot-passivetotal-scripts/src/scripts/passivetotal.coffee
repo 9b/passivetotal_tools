@@ -260,6 +260,10 @@ module.exports = (robot) ->
 						response += "*TLD:* #{results.tld}\n"
 						response += "*Dynamic:* #{results.dynamic}\n"
 					else
+						response += "*Country:* #{results.country}\n"
+						response += "*AS:* #{results.asn}\n"
+						response += "*AS Name:* #{results.as_name}\n"
+						response += "*Sinkhole:* #{results.sinkhole}\n"
 						response += "*Netblock:* #{results.network}\n"
 
 					response += "*Ever Compromised:* #{results.ever_compromised}\n"
