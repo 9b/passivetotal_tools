@@ -1,0 +1,19 @@
+Package: passivetotal
+Type: Package
+Title: Tools for Working with the 'PassiveTotal' API
+Version: 0.1.1
+Date: 2015-06-14
+Author: Bob Rudis (@hrbrmstr)
+Maintainer: Bob Rudis <bob@rudis.net>
+Description: Programmatic access to the 'PassiveTotal' API <https://www.passivetotal.org/api/docs>
+    which provides rich information on internet domain names and IP addresses.
+URL: http://github.com/hrbrmstr/passivetotal
+License: MIT + file LICENSE
+Suggests:
+    testthat
+Depends:
+    R (>= 3.0.0),
+    dplyr
+Imports:
+    httr,
+    stringr
